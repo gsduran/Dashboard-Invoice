@@ -1,0 +1,82 @@
+{ 
+    "name": "ColorblindSafe-Longer", 
+    "dataColors": ["#006E82", "#8214A0", "#005AC8", "#00A0FA", "#FA78FA", "#14D2DC", "#AA0A3C", "#FA7850", "#0AB45A"],
+    "background":"#565638",
+    "foreground": "#565638",
+    "tableAccent": "#3C3C6E",
+	"visualStyles":{
+        "*":{
+            "*":{
+                "*":[{
+                    "responsive":true,
+				    "wordWrap":true,
+                    "fontSize":11
+                }],
+			    "wordWrap":[{
+				    "show":true
+                }],
+                "labels":[{
+                    "show":true,
+                    "labelOrientation":"vertical"
+                }],
+                "categoryLabels":[{
+                    "show":true
+                }],
+                "categoryAxis":[{
+                    "showAxisTitle":true
+                }],
+                "valueAxis":[{
+                    "showAxisTitle":true
+                }]
+		    }
+	    },
+        "card":{
+            "*":{
+                "labels":[{
+                    "fontSize":27
+                }],
+                "categoryLabels":[{
+                    "fontSize":12
+                }]
+            }
+        },
+	    "scatterChart":{
+		    "*":{
+			    "fillPoint":[{
+				    "show":true
+				}]
+		    }
+	    },
+        "lineChart":{
+            "*":{
+                "legend":[{
+                    "legendMarkerRendering":"lineAndMarker"
+                }],
+                "lineStyles":[{
+                    "showMarker":true,
+                    "showSeries":true
+                }]
+            }
+        },
+        "donutChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        },
+        "pieChart":{
+            "*":{
+                "legend":[{
+                    "show":true
+                }],
+                "labels":[{
+                    "labelStyle": "Percent of total"
+                }]
+            }
+        }
+    }
+}
